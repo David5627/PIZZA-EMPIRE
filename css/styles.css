@@ -1,0 +1,30 @@
+.intro{
+    background-image: url("../images/pizza\ one");
+    height: 550px;
+    width: 100%;
+    /* margin-: -5%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    /* margin-top: 10%; */
+    padding-top: 5%;
+}
+.para{
+    padding-top: 20%;
+    color: white;
+    font: 50%;
+}
+.home{
+    text-align: center;
+    padding-top: 5%;
+
+}
+.services{
+    text-align: center;
+}
+.Da{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}

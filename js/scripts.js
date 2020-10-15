@@ -23,4 +23,6 @@ $(document).ready(function(){
     $("#piza8").hover(function(){
         $(".overlay8").toggle();
     });
-})
+});
+
+

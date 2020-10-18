@@ -2,12 +2,10 @@
     background-image: url("../images/pizza\ one");
     height: 550px;
     width: 100%;
-    /* margin-: -5%; */
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     color: black;
-    /* margin-top: 10%; */
     padding-top: 5%;
 }
 .para{
@@ -24,15 +22,11 @@
     background-image: url("../images/service");
     height: 400px;
     padding-top: 5%;
-    /* text-align: center; */
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 19%;
 }
 .Da{
-    /* text-align: center; */
-    /* position: absolute; */
-    /* margin-left: 15%; */
  
     display: flex; 
     justify-content: space-between;
@@ -47,7 +41,6 @@
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 17%;
-    /* background-color: limegreen; */
 }
 .head{
     padding-top: 5%;

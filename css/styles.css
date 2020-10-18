@@ -21,7 +21,7 @@
 
 }
 .services{
-    background-image: url("/images/service");
+    background-image: url("../images/service");
     height: 400px;
     padding-top: 5%;
     /* text-align: center; */
@@ -41,7 +41,7 @@
     
 } 
 .aboutus{
-    background-image: url("/images/small-business-about-us-page-600.jpg");
+    background-image: url("../images/small-business-about-us-page-600.jpg");
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ nav ul li a {
 
 }
 .choice{
-    background-image: url("/images/Cheese_stuffed_crust.jpg");
+    background-image: url("../images/Cheese_stuffed_crust.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;

@@ -27,44 +27,34 @@ $(document).ready(function () {
     });
 });
 
-// $(document).ready(function () {
-//     $("#order").click(function (event) {
 
-//         $(".delivery").toggle();
-
-//     });
-//     $(".delivery").click(function () {
-//         $("#order") .toggle();
-
-//     });
-// event.preventDefault();
-
-// });
 function myFunction(){
-    $("#DK").hide();
-    $(".choice").show();
+    event.preventDefault();
+    const selectedCrust = document.getElementById("crust").value;
+    const selectedSize = document.getElementById("size").value;
+    const actualCrust = parseInt(selectedCrust);
+    const actualSize = parseInt(selectedSize);
+    console.log(actualCrust);
+    console.log(actualSize);
+    const totalPrice = actualSize + actualCrust;
+    console.log(totalPrice);
+    alert("your order of " + totalPrice + " piza has been recieved.Your total amount is " + totalPrice + "")
 }
-function checkOut(){
-    $(".delivery").show();
-    $(".choice").hide();
+
+function mybutton(){
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var location = document.getElementById("lct").value;
+    alert(name + " your order has been recieved and will be delivered at " + location + " within a short period of time or we will email you through " + email)
 }
 
 
 
 
 
-// $(document).ready(function () {
-//     $(".choice").click(function () {
-//         $("#btn").toggle();
 
-//     });
-//     $("#btn").click(function () {
-//         $(".choice").toggle();
 
-//     });
-//     prevent("default")
-
-// });
 
 
 

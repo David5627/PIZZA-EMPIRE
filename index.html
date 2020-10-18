@@ -141,97 +141,100 @@
                 </b>
             </div>
         </div>
+        <!-- <div id="order"> -->
+
+        <h1>MAKE ORDER HERE.</h1>
         <div id="order">
-            <h1>MAKE ORDER HERE.</h1>
-            <form action="/action_page.php" class="was-validated">
-                <div class="form-group">
-                    <label for="">select your flavour</label>
-                    <input type="text" class="form-control" id="slct" placeholder="select here" name="selector"
-                        required>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Please fill out this field.</div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="sel1">Select list (select one):</label>
+                            <select class="form-control" id="sel1">
+                                <option>SELECT PIZA</option>
+                                <option>BREAD WHOL WHEAT PIZA</option>
+                                <option>CARLI FLOWER PIZA</option>
+                                <option>CHEESE_STUFFED_CRUST PIZA</option>
+                                <option value="">KETO FRIENDLY PIZA</option>
+                                <option>GLUTTEN-FREE-PIZA-CRUST</option>
+                                <option>neo-politan-pizza_skeeze-Pixabay</option>
+                                <option>PALEO PIZA CRUST</option>
+                                <option>STUFFED SNACK PIZA</option>
+                                <option></option>
+                            </select>
+                            <br>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sel1">Select list (select one):</label>
+                            <select class="form-control" id="sel1">
+                                <option value="">select size</option>
+                                <option>small@500</option>
+                                <option>medium@900</option>
+                                <option>large@1200</option>
+                            </select>
+                            <br>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select list (select one):</label>
+                            <select class="form-control" id="sel1">
+                                <option value="">Select crust</option>
+                                <option>Crispy@150</option>
+                                <option>Stuffed@300</option>
+                                <option>Glutten free@200</option>
+                            </select>
+                            <br>
+                        </div>
+
+                        <input type="submit">
+
+
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="size">select size:</label>
-                    <input type="number" class="form-control" id="size" placeholder="select size" name="size" required>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <div class="form-group">
-                    <label for="crust">choose your favourite crust:</label>
-                    <input type="text" class="form-control" id="size" placeholder="choose your favourite crust"
-                        name="favourite" required>
-                    <div class="valid-feedback">Valid.</div>
-                    <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                <div class="form-group form-check">
-                    <label class="form-check-label">
-                        <h3>Each toping at sh 200.</h3>
-                        <input class="form-check-input" type="checkbox" name="remember" required>
-                        <p>pineaple</p>
-                        <input class="form-check-input" type="checkbox" name="remember" required>
-                        <p>sausage</p>
 
-                        <input class="form-check-input" type="checkbox" name="remember" required>
-                        <p> mushroom</p>
-
-                        <!-- <div class="valid-feedback">Valid.</div> -->
-                        <!-- <div class="invalid-feedback">Check this checkbox to continue.</div> -->
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-
-          
-            <div class="choice">
-                <h2>Your Order is:</h2>
-                <div id="your-order">
-                    <table>
-                        <tr>
-                            <th>Name</th>
-                            <th>Size</th>
-                            <th>crust</th>
-                            <th>Toppings</th>
-                            <th>Total</th>
-                        </tr>
-                        <thead>
-                            <tr>
-                                <td id="pizza name"></td>
-                                <td id="pizza size"></td>
-                                <td id="pizza crust"></td>
-                                <td id="pizza Toppings"></td>
-                                <td id="pizza Total"></td>
+            </div>
+        </div>
 
 
-                            </tr>
-                        </thead>
 
-                    </table>
 
-                    <!-- <button class="btn btn-secondary  bg-secondary addPizza">Add Pizza</button> -->
-                  <button class="btn btn-secondary bg-secondary " id="checkout">Checkout</button>
-                  <button class="btn btn-secondary deliver bg-secondary ">Home delivery?</button>
 
-                  <div class="delivery"> 
-                      <form action="" id="form">
-                      <div class="form-group">
-                        <input type="text" id="name" class="form-control mb-3" placeholder="Name" required>
-                        <input type="email" id="phone" class="form-control mb-3" placeholder="Email" required>
-                        <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                        <button class="btn btn-secondary bg-secondary " id="final-order">order</button>
-                      </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="delivery">
+                    <form action="" id="form">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control mb-3" placeholder="Name" required>
+                            <input type="email" id="name" class="form-control mb-3" placeholder="Email" required>
+                            <input type="text" id="name" class="form-control mb-3" placeholder="Location for delivery">
+                            <button class="btn btn-secondary bg-secondary " id="final-order">order</button>
+                        </div>
                     </form>
 
                 </div>
-                </div>
             </div>
+
         </div>
+        </form>
+
     </div>
 
+    <!-- <button class="btn btn-secondary deliver bg-secondary "id="checkout"> Home delivery?</button> -->
+
+
+
+
+
+    </div>
+    <!-- </div> -->
+    </div>
     <script src="/js/jquery-3.5.1.js"></script>
     <script src="/js/scripts.js"></script>
- 
-
 
 </body>
 

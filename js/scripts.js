@@ -1,4 +1,3 @@
-// const { prototype } = require("./jquery-3.5.1");
 
 $(document).ready(function () {
     $("#piza1").hover(function () {

@@ -69,12 +69,14 @@ nav ul li a :hover{
 }
 nav{
     position: fixed;
+    /* display: inline-block; */
 }
 nav ul li a {
     text-decoration: none;
   color:red;
     padding: 20px;
     font-size:40px ;
+    display: inline-block;    
 }
 
 .overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
@@ -98,9 +100,17 @@ nav ul li a {
 
 }
 .form-check-input{
- margin-left: 8%;
+ margin-left: 15%;
 }
-#your-order{
-    /* margin-left: 9%; */
+.delivery, .choice{
+    /* display: none; */
+    padding-right: 20%;
+
+}.choice{
+    background-image: url("/images/Cheese_stuffed_crust.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
+
 

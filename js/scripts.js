@@ -1,3 +1,4 @@
+// const { prototype } = require("./jquery-3.5.1");
 
 $(document).ready(function () {
     $("#piza1").hover(function () {
@@ -31,19 +32,16 @@ function myFunction(){
     event.preventDefault();
     const selectedCrust = document.getElementById("crust").value;
     const selectedSize = document.getElementById("size").value;
+    // const selectedToping = document.getElementById("sau");
+    // const actualToping = parseInt(selectedToping)
     const actualCrust = parseInt(selectedCrust);
     const actualSize = parseInt(selectedSize);
+    // console.log(actualToping)
     console.log(actualCrust);
     console.log(actualSize);
     const totalPrice = actualSize + actualCrust;
-    if(selectedCrust!= "crust" || selectedSize !="size"){
-        alert("You have not selected your crust");
-    } else{
-        console.log(totalPrice);
-    }
     console.log(totalPrice);
     alert("your order of " + totalPrice + " piza has been recieved.Your total amount is " + totalPrice + "")
-    
 }
 
 function mybutton(){

@@ -36,8 +36,14 @@ function myFunction(){
     console.log(actualCrust);
     console.log(actualSize);
     const totalPrice = actualSize + actualCrust;
+    if(selectedCrust!= "crust" || selectedSize !="size"){
+        alert("You have not selected your crust");
+    } else{
+        console.log(totalPrice);
+    }
     console.log(totalPrice);
     alert("your order of " + totalPrice + " piza has been recieved.Your total amount is " + totalPrice + "")
+    
 }
 
 function mybutton(){

@@ -121,6 +121,10 @@ nav ul li a {
 }
 #piza1, #piza2, #piza3, #piza4, #piza5, #piza6, #piza7, #piza8 {
     padding-right: 40px;
-} 
+}
+
+#delivery{
+    display: none;
+}
 
 

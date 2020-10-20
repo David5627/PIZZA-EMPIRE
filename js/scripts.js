@@ -28,6 +28,14 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $("#Akaka").click(function () {
+        $("#order").hide();
+        $(".delivery").show();
+    });
+    event.preventDefault();
+});
+
 function myFunction(){
     event.preventDefault();
     const selectedCrust = document.getElementById("crust").value;
@@ -36,9 +44,13 @@ function myFunction(){
     const actualSize = parseInt(selectedSize);
     console.log(actualCrust);
     console.log(actualSize);
-    var selectedToping = document.getElementById("toping");
-    var actualToping = parseInt(selectedToping)
+    const selectedToping = document.getElementById("toping").value;
+    const actualToping = parseInt(selectedToping);
     console.log(actualToping);
+
+   
+
+   
 
     var selectedFresh = document.getElementById("dk").value;
     var actualFresh = parseInt(selectedFresh);
@@ -46,7 +58,7 @@ function myFunction(){
     const totalPrice = (actualSize + actualCrust + actualToping) * actualFresh;
     console.log(totalPrice);
 
-
+    
     alert("your order of " + totalPrice + " piza has been recieved.Your total amount is " + totalPrice + "")
 }
 

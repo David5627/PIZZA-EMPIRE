@@ -28,23 +28,41 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $("#Akaka").click(function () {
+        $("#order").hide();
+        $(".delivery").show();
+    });
+    event.preventDefault();
+});
+
 function myFunction(){
     event.preventDefault();
     const selectedCrust = document.getElementById("crust").value;
     const selectedSize = document.getElementById("size").value;
-    // const selectedToping = document.getElementById("sau");
-    // const actualToping = parseInt(selectedToping)
     const actualCrust = parseInt(selectedCrust);
     const actualSize = parseInt(selectedSize);
-    // console.log(actualToping)
     console.log(actualCrust);
     console.log(actualSize);
-    const totalPrice = actualSize + actualCrust;
+    const selectedToping = document.getElementById("toping").value;
+    const actualToping = parseInt(selectedToping);
+    console.log(actualToping);
+
+   
+
+   
+
+    var selectedFresh = document.getElementById("dk").value;
+    var actualFresh = parseInt(selectedFresh);
+    console.log(actualFresh);
+    const totalPrice = (actualSize + actualCrust + actualToping) * actualFresh;
     console.log(totalPrice);
+
+    
     alert("your order of " + totalPrice + " piza has been recieved.Your total amount is " + totalPrice + "")
 }
 
-function mybutton(){
+function myButton(){
     event.preventDefault();
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;

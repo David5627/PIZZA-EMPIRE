@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA-EMPIRE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -147,8 +146,9 @@
         </div>
         <!-- <div id="order"> -->
 
-        <h1>MAKE ORDER HERE.</h1>
+
         <div id="order">
+            <h1>MAKE ORDER HERE.</h1>
             <div class="col-md-6">
                 <form>
                     <div class="form-group">
@@ -191,32 +191,36 @@
                     </div>
 
                     choose your topings here.
-
-                    <div class="form-group" id="">
-                        <input type="checkbox" id="toping" name="toping" value="200">sauasge
-                        <input type="checkbox" name="toping" value="150">mushroom
-                        <input type="checkbox" name="toping" value="300">onion
+                    <div class="form-group">
+                        <label for="sel1"></label>
+                        <select class="form-control" name="" id="toping">
+                            <option value="0">o</option>
+                            <option value="300">Sausage</option>
+                            <option value="250">Onion</option>
+                            <option value="150">mushroom</option>
+                        </select>
 
                     </div>
+
                     <div class="form-group">
                         <label for="">ADD PIZA</label>
                         <input type="number" class="form-control" value="1" id="dk">
                     </div>
-                </form>
 
 
 
 
-                <input type="submit" value="submit" class="btn btn-info" onclick="myFunction()">
+                    <input type="submit" value="submit" class="btn btn-infor" id="Akaka" onclick="myFunction()">
 
 
                 </form>
             </div>
         </div>
-        <h1>DELIVERY</h1>
 
         <div class="col-md-6">
             <div class="delivery">
+                <h1>DELIVERY</h1>
+
                 <form action="" id="form">
                     <div class="form-group">
                         <input type="text" id="name" class="form-control mb-3" required placeholder="Name">
@@ -235,7 +239,7 @@
         </div>
 
 
-
+        </form>
 
     </div>
 

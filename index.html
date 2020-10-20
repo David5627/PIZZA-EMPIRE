@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA-EMPIRE</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -188,49 +189,53 @@
                         </select>
                         <br>
                     </div>
-                    <div id="topings">
-                        choose your topings here.
-                        <div class="custom-control custom-checkbox" id="sau">
-                            <input type="checkbox" class="custom-control-input" id="sausage" value="100">
-                            <label class="custom-control-label" for="customCheck1">Sausage</label>
-                        </div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="sausage" value="150">
-                            <label class="custom-control-label" for="customCheck1">Onion</label>
-                        </div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="sausage" value="200">
-                            <label class="custom-control-label" for="customCheck1">mushroom</label>
-                        </div>
+
+                    choose your topings here.
+
+                    <div class="form-group" id="">
+                        <input type="checkbox" id="toping" name="toping" value="200">sauasge
+                        <input type="checkbox" name="toping" value="150">mushroom
+                        <input type="checkbox" name="toping" value="300">onion
+
                     </div>
-        
-             <input type="submit" value="submit" class="btn btn-infor" onclick="myFunction()">
+                    <div class="form-group">
+                        <label for="">ADD PIZA</label>
+                        <input type="number" class="form-control" value="1" id="dk">
+                    </div>
+                </form>
 
 
-            </form>
+
+
+                <input type="submit" value="submit" class="btn btn-info" onclick="myFunction()">
+
+
+                </form>
+            </div>
         </div>
-    </div>
-    <h1>DELIVERY</h1>
+        <h1>DELIVERY</h1>
 
-    <div class="col-md-6">
-        <div class="delivery">
-            <form action="" id="form">
-                <div class="form-group">
-                    <input type="text" id="name" class="form-control mb-3" required placeholder="Name">
-                    <br><br>
-                    <input type="email" id="email" class="form-control mb-3" required placeholder="Email">
-                    <br><br>
-                    <input type="text" id="lct" class="form-control mb-3" required placeholder="Location for delivery">
-                    <br>
-                    <button class="btn btn-secondary bg-secondary " id="final-order" onclick="mybutton()">order</button>
-                </div>
-            </form>
+        <div class="col-md-6">
+            <div class="delivery">
+                <form action="" id="form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control mb-3" required placeholder="Name">
+                        <br><br>
+                        <input type="email" id="email" class="form-control mb-3" required placeholder="Email">
+                        <br><br>
+                        <input type="text" id="lct" class="form-control mb-3" required
+                            placeholder="Location for delivery">
+                        <br>
+                        <button class="btn btn-secondary bg-secondary " id="final-order"
+                            onclick="myButton()">order</button>
+                    </div>
+                </form>
 
+            </div>
         </div>
-    </div>
 
 
-    </form>
+
 
     </div>
 

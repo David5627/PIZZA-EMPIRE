@@ -31,7 +31,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#Akaka").click(function () {
         $("#order").hide();
-        $(".delivery").show();
+        $("#delivery").show();
     });
     event.preventDefault();
 });
